@@ -1,0 +1,219 @@
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+    color: #011b33;
+}
+
+.body {
+    
+}
+
+
+/*Miscellaneous*/
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    color: #011b33;
+}
+
+h3 {
+    font-size: 1.6rem;
+}
+
+section p {
+    font-family: 'Domine', sans-serif;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+p {
+    font-family: 'Domine', sans-serif;
+    color: #011b33;
+}
+/*End Miscellaneous*/
+
+
+.header {
+    
+}
+
+.header nav.navbar {
+    margin-bottom: 0px;
+}
+
+.header nav.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.header div.banner {
+    width: 100%;
+    height: 600px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-image: url(../img/assets/Logo-06.png);
+    background-size: cover;
+    background-position: 0% 45%;
+}
+
+.header div.discover_banner {
+    width: 100%;
+    height: 300px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    background-image: url(../img/geo-pattern-26b3259d36156a6593994645e1af8601e298de0d1a7d0833f9efa607ca2f0aed.png);
+    background-size: contain;
+    background-blend-mode: color-dodge;
+}
+
+.header div.discover_banner input {
+    text-align: center;
+}
+
+#bs-example-navbar-collapse-1 > ul > li > a {
+    font-size: 15px;
+}
+
+div.banner div.headline_talk {
+    margin-top: 100px;
+}
+
+
+div.banner div.headline_talk h1 {
+    
+}
+
+@media (min-width:768px){
+    div.banner div.headline_talk h1 {
+    font-size: 70px;
+      }
+}
+
+div.banner div.headline_talk p {
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+div.banner div.headline_talk button.btn {
+    margin-top: 15px;
+    width: 183px;
+    height: 50px;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+@media (max-width:768px) {
+    div.banner div.headline_talk {
+        text-align: center;
+    }
+}
+
+@media (min-width:768px) {
+    div.banner div.headline_talk h1 {
+    font-size: 70px;
+      }
+}
+
+
+section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+footer {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+
+    div.land_write {
+        text-align: center;
+}
+
+section.about {
+    
+}
+
+section.how_it_works div.feat {
+    text-align: center;
+    margin-top: 50px;
+    background: #fff;
+}
+
+div.map {    
+    height: 300px;
+}
+
+@media (min-width:768px){
+    div.map {
+    background-image: url(../img/responsive.jpg);
+    background-size: cover;
+    }
+}
+
+section.features div.network {
+    
+}
+
+section.call_to_action {
+    height: 235px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+
+
+/*Begin SVG*/
+section.how_it_works div.feat {
+    border-radius: 3px;
+    box-shadow: 0 3px 12px -2px rgba(0,0,0,0.08);
+    margin-bottom: 40px;
+    padding: 30px 25px 25px;
+}
+
+section.how_it_works div.feat p {
+    font-size: 1.3rem;
+}
+
+
+.icon {
+    display: block;
+    margin: 0 auto;
+    width: 45px;
+    height: 45px;
+}
+
+.svg {
+    display: inline-block;
+    height: 48px;
+    width: 48px;
+}
+
+.svg_persona {
+    background: url(../img/sprite.svg) 50% 40% no-repeat;
+}
+
+.svg_integra {
+    background: url(../img/sprite.svg) 66.5% 0 no-repeat;
+}
+
+.svg_interface {
+    background: url(../img/sprite.svg) 83.5% 40% no-repeat;
+}
+
+.svg_security {
+    background: url(../img/sprite.svg) 83% 100% no-repeat;
+}
+
+/*End SVG*/
+
+/*@media (min-width:992px){.container{width:1000px}}*/
+
+
+
+
+
